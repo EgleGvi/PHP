@@ -22,7 +22,7 @@
         $multi = $first * $sec;
         $subtraction = $first - $sec;
         $division = $first / $sec;
-            if (!is_numeric($first) || !is_numeric($sec)) {
+            if (!is_numeric($first) || !is_numeric($sec) || $first == 0 && $sec == 0) {
                 echo "Neteisingai ivesti duomenys";
             }
             else {

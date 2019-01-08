@@ -36,15 +36,15 @@
                 <h3>Jūsų vardas ir pavardė</h3>
                 <input type="text" name="string">
                 <h3>Jūsų amžius</h3>
-                <input type="text" name="number">
+                <input type="number" name="number">
                 <h3>Jūsų el. paštas</h3>
                 <input type="text" name="email">
                 <h3>Jūsų tel. nr.</h3>
-                <input type="text" name="number2">
+                <input type="number" name="number2">
                 <h3>Trys žodžiai, kurie geriausiai Jus apibudina</h3>
                 <input type="text" name="string2">
                 <h3>Pasirinkite renginio datą</h3>
-                <input type="text" name="number3">
+                <input type="date" name="date">
                 <input class="submitBtn" type="submit" name="submit">
             </div>
         </form>
@@ -54,7 +54,7 @@
     $email = $_GET['email'];
     $phone = $_GET['number2'];
     $words = $_GET['string2'];
-    $date = $_GET['number3'];
+    $date = $_GET['date'];
 
 
 

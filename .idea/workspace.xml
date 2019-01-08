@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b93f37ca-efd9-46be-8107-2d83ca90c67b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uzduotys-schemos/algoritmai-antra-uzd.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzduotys-schemos/algoritmai-ketvirta-uzd.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzduotys-schemos/algoritmai-pirma-uzd.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzduotys-schemos/algoritmai-trecia-uzd.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzduotys-schemos/pirminis-skaicius.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array-aver.php" beforeDir="false" afterPath="$PROJECT_DIR$/array-aver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/triangles.php" beforeDir="false" afterPath="$PROJECT_DIR$/triangles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-form/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/file-form/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-form/registration-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/file-form/registration-form.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,74 +16,46 @@
     <session id="-1346034041">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="6" />
-          <entry key="project.open.time.7" value="9" />
+          <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="38" />
+          <entry key="php" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="38" />
+          <entry key="PHP" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="5292" />
+          <entry key="php" value="6115" />
           <entry key="txt" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="5292" />
+          <entry key="PHP" value="6115" />
           <entry key="PLAIN_TEXT" value="43" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file-form/form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php08grade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/file-form/registration-form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,9 +69,11 @@
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/php08controls.php" />
         <option value="$PROJECT_DIR$/biggestNumber.php" />
-        <option value="$PROJECT_DIR$/file-form/registration-form.php" />
         <option value="$PROJECT_DIR$/php08grade.php" />
+        <option value="$PROJECT_DIR$/file-form/get.php" />
         <option value="$PROJECT_DIR$/file-form/form.php" />
+        <option value="$PROJECT_DIR$/cookies.php" />
+        <option value="$PROJECT_DIR$/file-form/registration-form.php" />
       </list>
     </option>
   </component>
@@ -118,7 +88,7 @@
       <server host="localhost" id="378d7538-8798-4f7f-8f33-bb6bcb98762f" name="localhost" />
     </servers>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -130,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,7 +117,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +185,8 @@
       <workItem from="1546606927983" duration="1436000" />
       <workItem from="1546770060465" duration="4935000" />
       <workItem from="1546842562295" duration="15456000" />
-      <workItem from="1546938230703" duration="773000" />
+      <workItem from="1546938230703" duration="4198000" />
+      <workItem from="1546964674907" duration="3376000" />
     </task>
     <task id="LOCAL-00001" summary="namu darbai - masyvo vidurkis, trikampiai">
       <created>1545938874942</created>
@@ -228,7 +199,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75092000" />
+    <option name="totallyTimeSpent" value="81893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,10 +211,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17181209" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,24 +299,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file-form/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/file-form/form - Copy.php" />
+    <entry file="file://$PROJECT_DIR$/file-form/get.php" />
     <entry file="file://$PROJECT_DIR$/php08grade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="330">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/file-form/registration-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        <state relative-caret-position="27">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-form/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
