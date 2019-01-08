@@ -1,3 +1,5 @@
+
+
 <?php
 
 function type($a, $b, $c) {
