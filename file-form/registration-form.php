@@ -34,30 +34,41 @@
             <h2>Registruokitės į mūsų renginį!</h2>
             <div class="form">
                 <h3>Jūsų vardas ir pavardė</h3>
-                <input type="text" name="string">
+                <input type="text" name="name">
+                <input type="text" name="name2">
                 <h3>Jūsų amžius</h3>
                 <input type="number" name="number">
                 <h3>Jūsų el. paštas</h3>
                 <input type="text" name="email">
                 <h3>Jūsų tel. nr.</h3>
-                <input type="number" name="number2">
-                <h3>Trys žodžiai, kurie geriausiai Jus apibudina</h3>
-                <input type="text" name="string2">
+                <input type="number" name="phoneNum">
+                <h3>Įrašykite iš kokio miesto esate</h3>
+                <input type="text" name="string">
                 <h3>Pasirinkite renginio datą</h3>
                 <input type="date" name="date">
                 <input class="submitBtn" type="submit" name="submit">
             </div>
         </form>
     <?php
-    $name = $_GET['string'];
+    $name = $_GET['name'];
+    $name2 = $_GET['name2'];
     $age = $_GET['number'];
     $email = $_GET['email'];
-    $phone = $_GET['number2'];
-    $words = $_GET['string2'];
+    $phone = $_GET['phoneNum'];
+    $words = $_GET['string'];
     $date = $_GET['date'];
 
+    $user = [
+        'name' => $name,
+        'name2' => $name2,
+        'number' => $age,
+        'email' => $email,
+        'phoneNum' => $phone,
+        'string' => $words,
+        'date' => $date
+    ];
 
-
+    $users[] = $user;
     ?>
     </body>
 </html>
