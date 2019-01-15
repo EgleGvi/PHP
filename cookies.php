@@ -93,6 +93,9 @@
 
     if(isset($_GET['filter'])) {
         $filter = $_GET['filter'];
+        $filterLower = strtolower($filter);
+        $filterUpper = strtoupper($filter);
+
         usort($cars, function ($car1, $car2) {
             return $car2['speed'] <=> $car1['speed'];
         });
@@ -100,7 +103,7 @@
         $unfilteredCars = $cars;
         $cars = [];
 
-        $regexp = "/\b\w*(" . $filter . ")\w*\b/";
+        $regexp = "/\b\w*(" . $filterLower . "|" . $filterUpper . ")\w*\b/";
 
         foreach($unfilteredCars as $car) {
             $matches = [];
