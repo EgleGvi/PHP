@@ -1,0 +1,17 @@
+table {
+    margin-top: 20px;
+}
+
+.float-right {
+    float: right;
+    margin: 5px;
+}
+
+.float-left {
+    margin: 10px;
+}
+
+.btn-info {
+    width: 70px;
+    margin-bottom: 5px;
+}
