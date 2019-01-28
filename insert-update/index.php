@@ -34,6 +34,7 @@ if ($result->num_rows > 0) {
     </tr>
     <table class="table table-bordered">
         <tr>
+            <th>Eil. Nr.</th>
             <th>Greičio fiksavimo data ir laikas</th>
             <th>Automobilio numeris</th>
             <th>Nuvažiuotas atstumas metrais</th>
@@ -42,8 +43,10 @@ if ($result->num_rows > 0) {
             <th>Veiksmai</th>
         </tr>
         <?php
+        $colNum = 1 + $offset;
     while ($car = $result->fetch_assoc()) {
             echo "<tr>";
+            echo "<td>" . $colNum++ . "</td>";
             echo "<td>" . $car['date'] . "</td>";
             echo "<td>" . $car['number'] . "</td>";
             echo "<td>" . $car['distance'] . "</td>";

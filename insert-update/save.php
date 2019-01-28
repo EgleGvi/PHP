@@ -2,10 +2,10 @@
 
 include 'db.php';
 
-if(!empty($_POST['date']) ||
-    !empty($_POST['number']) ||
-    !empty($_POST['distance']) ||
-    !empty($_POST['time'])
+if(empty($_POST['date']) ||
+    empty($_POST['number']) ||
+    empty($_POST['distance']) ||
+    empty($_POST['time'])
 ){
     die("Butina uzpildyti visus laukelius!");
 }
@@ -17,7 +17,7 @@ $time = $_POST['time'];
 $id = is_numeric($_POST['id']) ? $_POST['id'] : -1;
 if($id >= 0){
     //edit
-    $result=query("UPDATE radars SET date='$distance', number='$number', distance='$distance', time='$time' WHERE id='$id'");
+    $result=query("UPDATE radars SET date='$date', number='$number', distance='$distance', time='$time' WHERE id='$id'");
 } else {
     //create new
     $result=query("INSERT INTO radars(date, number, distance, time) VALUES('$date', '$number', '$distance', '$time')");
