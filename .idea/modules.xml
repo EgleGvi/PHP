@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PHP.iml" filepath="$PROJECT_DIR$/.idea/PHP.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../bbc-news-clone/.idea/bbc-news-clone.iml" filepath="$PROJECT_DIR$/../../bbc-news-clone/.idea/bbc-news-clone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../.idea/www.iml" filepath="$PROJECT_DIR$/../../.idea/www.iml" />
     </modules>
   </component>
 </project>

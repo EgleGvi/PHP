@@ -1,0 +1,34 @@
+HEAD http://localhost/php/PHP/testukas/public/
+Accept: application/json
+
+###
+
+HEAD http://localhost/php/PHP/testukas/public
+Accept: application/json
+
+###
+
+HEAD http://localhost/php/PHP/testukas/public/radars
+Accept: application/json
+
+###
+
+GET http://localhost/php/PHP/testukas/public/radars
+Accept: application/json
+
+<> 2019-02-06T123922.200.html
+
+###
+
+GET http://localhost/php/PHP/testukas/public/radars/create
+Accept: application/json
+
+###
+
+GET http://localhost/php/PHP/testukas/public/
+Accept: application/json
+
+<> 2019-02-06T123822.200.html
+
+###
+

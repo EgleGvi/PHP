@@ -21,7 +21,7 @@ if (!($result = query($sqlCount))) {
     $count = $result->fetch_array()[0];
 }
 
-$sql = "SELECT *, ROUND(distance/time) AS speed FROM radars ORDER BY date DESC LIMIT 5 OFFSET " . $offset;
+$sql = "SELECT *, ROUND(distance/time*3.6) AS speed FROM radars ORDER BY date DESC LIMIT 5 OFFSET " . $offset;
 if (!($result = query($sql))) {
     die("Ivyko klaida");
 }
@@ -39,7 +39,7 @@ if ($result->num_rows > 0) {
             <th>Automobilio numeris</th>
             <th>Nuvažiuotas atstumas metrais</th>
             <th>Sugaištas laikas sekundėmis</th>
-            <th>Greitis</th>
+            <th>Greitis km/h</th>
             <th>Veiksmai</th>
         </tr>
         <?php
