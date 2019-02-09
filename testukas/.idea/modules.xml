@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../insert-update/.idea/insert-update.iml" filepath="$PROJECT_DIR$/../insert-update/.idea/insert-update.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/testukas.iml" filepath="$PROJECT_DIR$/.idea/testukas.iml" />
     </modules>
   </component>

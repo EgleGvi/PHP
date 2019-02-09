@@ -21,8 +21,8 @@ class CreateRadarsTable extends Migration
             $table->double('time');
             $table->double('speed')->nullable();
             $table->integer('driver_id')->nullable();
-            $table->integer('creator_id');
-            $table->integer('updator_id');
+            //$table->integer('creator_id');
+            //$table->integer('updator_id');
             $table->timestamps();
         });
     }

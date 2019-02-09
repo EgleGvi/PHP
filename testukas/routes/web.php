@@ -11,7 +11,6 @@
 |
 */
 
-use App\Radar;
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', function () {
@@ -28,12 +27,15 @@ use Illuminate\Support\Facades\Route;
 //    return view('radars.show', compact('radar'));
 //});
 
+
+//associate
+Route::get('/radars/{radar}/{driver}', 'RadarsController@associate');
 Route::get('radars', 'RadarsController@index');
 Route::get('/', 'RadarsController@index');
 Route::get('radars/create', 'RadarsController@create');
 Route::post('radars', 'RadarsController@store');
 Route::get('radars/{radar}', 'RadarsController@show');
-Route::get('radars/{radar}/edit', 'RadarsController@edit');
+Route::get('radars/edit/{radar}', 'RadarsController@edit');
 Route::put('radars/{radar}', 'RadarsController@update');
 Route::delete('radars/{radar}', 'RadarsController@destroy');
 
