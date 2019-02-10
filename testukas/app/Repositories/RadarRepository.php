@@ -9,7 +9,7 @@ class RadarRepository
 
     public function paginate($pageSize) {
 
-        return Radar::orderBy('data', 'desc')->paginate($pageSize);
+        return Radar::orderBy('date', 'desc')->paginate($pageSize);
     }
 
     public function save($request)

@@ -24,7 +24,7 @@ class RadarsController extends Controller
      */
     public function index()
     {
-         $radars = Radar::all();
+         $radars = $this->radarRepository->paginate(15);
         return view('radars.index', [
             'radars' => $radars
         ]);
